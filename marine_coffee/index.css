@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   }
+  
   .header{
   height: 56px;
   width: 100%;
@@ -10,19 +11,24 @@
   position: fixed;
   top: 0;
   }
+  
   .header-left{
     float: left;
   }
+  
   .header-right{
     float: right;
     }
-  .clear{
+  
+    .clear{
   clear: both;
   }
+  
   .header-logo{
     height: 40px;
     margin-top: 8px;
     }
+    
     .header-right a {
       line-height: 56px;
       color: #5a5c5f;
@@ -30,16 +36,19 @@
       font-size: 16px;
       padding: 16px 5px;
     }
+    
     .header-right a:hover {
     background-color: #e2f1ff;
     transition: background-color 0.5s;
     }
+   
     .container{
     max-width: 980px;
     padding: 0 30px;
     margin-left: auto;
     margin-right: auto;
     }
+    
     .main-visual{
     padding-top: 140px;
     padding-bottom: 100px;
@@ -91,8 +100,21 @@
       }
       .footer-left p{
       margin-bottom: 8px;
+      }   
+      /* 既存のCSSに追加 */
+      html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
       }
-      *{
-        margin: 0;
-        padding: 0;
+
+      .footer {
+      height: 120px;
+      background-color: #2f3a44;
+      color: #e8e8e8;
+      padding-top: 20px;
+      box-sizing: border-box;
+      border: none; /* 不要なボーダーがないことを確認 */
+      margin: 0;    /* 不要なマージンがないことを確認 */
       }
+ 
